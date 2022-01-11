@@ -1,0 +1,28 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "quote": "People don't take trips, trips take people."
+        },
+        {
+            "id": 2,
+            "quote": "Travel is the only thing you buy that makes you richer."
+        },
+        {
+            "id": 3,
+            "quote": "The journey is my home."
+        },
+        {
+            "id": 4,
+            "quote": "To travel is to live."
+        },
+        {
+            "id": 5,
+            "quote": "It feels good to be lost in the right direction."
+        },
+        {
+            "id": 6,
+            "quote": "Life is a journey, not a destination."
+        }
+    ]
+}

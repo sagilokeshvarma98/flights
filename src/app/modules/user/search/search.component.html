@@ -1,0 +1,70 @@
+<section>
+    <form [formGroup]="searchForm">
+        <mat-grid-list [cols]="5">
+            <mat-grid-tile>
+                <mat-form-field>
+                    <mat-label>From</mat-label>
+                    <input matInput placeholder="Enter city name" formControlName='from' [matAutocomplete]="from">
+                    <mat-autocomplete #from='matAutocomplete'>
+                        <mat-option *ngFor='let city of fromOptions | async' [value]="city">
+                            <span class="autocompleteData">{{city}}</span>
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field>
+                    <mat-label>To</mat-label>
+                    <input matInput type="text" placeholder="Enter city name" formControlName='to'
+                        [matAutocomplete]="to">
+                    <mat-autocomplete #to='matAutocomplete'>
+                        <mat-option *ngFor='let city of toOptions | async' [value]="city">
+                            <span class="autocompleteData">{{city}}</span>
+                        </mat-option>
+                    </mat-autocomplete>
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field>
+                    <mat-label>Departure</mat-label>
+                    <input matInput type="date" formControlName="departure">
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-form-field>
+                    <mat-label>Return</mat-label>
+                    <input matInput type="date" formControlName="return">
+                </mat-form-field>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <button class="searchButton" type="submit" color="warn" mat-raised-button
+                    [disabled]="searchForm.invalid" (click)="searchForFlights()">SEARCH</button>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </form>
+
+    <!-- <form [formGroup]="searchForm">
+                <mat-form-field>
+                    <mat-label>From</mat-label>
+                    <input matInput placeholder="Enter city name" [(ngModel)]="from" formControlName="from"
+                        [matAutocomplete]="cities">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>To</mat-label>
+                    <input matInput type="text" placeholder="Enter city name" [(ngModel)]="to" formControlName="to"
+                        [matAutocomplete]="cities">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Departure</mat-label>
+                    <input matInput type="date" formControlName="departure">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Return</mat-label>
+                    <input matInput type="date" formControlName="return">
+                </mat-form-field>
+                <button type="submit" mat-button color="primary" [disabled]="searchForm.invalid"
+                    (click)="searchForFlights()">SEARCH</button>
+            </form> -->
+</section>
+
+<!-- (window:resize)="handleSize($event)" -->

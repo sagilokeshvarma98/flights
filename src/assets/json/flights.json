@@ -1,0 +1,202 @@
+{
+    "flights": [
+        {
+            "id": 1,
+            "name": "EMIRATES",
+            "startTime": "9:20",
+            "endTime": "15:45",
+            "from": "hyderabad",
+            "to": "goa",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 2,
+            "name": "SpiceJet",
+            "startTime": "4:40",
+            "endTime": "05:45",
+            "from": "CHENNAI",
+            "to": "BANGLURU",
+            "journetTime": "1 hour and 15 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 3,
+            "name": "Vistara",
+            "startTime": "23:10",
+            "endTime": "05:15",
+            "from": "CHENNAI",
+            "to": "BANGLURU",
+            "journetTime": "6 hours and 5 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 4,
+            "name": "IndiGo",
+            "startTime": "10:20",
+            "endTime": "12:45",
+            "from": "CHENNAI",
+            "to": "BANGLURU",
+            "journetTime": "2 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 5,
+            "name": "EMIRATES",
+            "startTime": "00:20",
+            "endTime": "03:15",
+            "from": "MUMBAI",
+            "to": "KERALA",
+            "journetTime": "2 hours and 45 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 6,
+            "name": "SpiceJet",
+            "startTime": "4:40",
+            "endTime": "05:45",
+            "from": "GOA",
+            "to": "KASOL",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 7,
+            "name": "Vistara",
+            "startTime": "06:05",
+            "endTime": "07:20",
+            "from": "KERALA",
+            "to": "PUNE",
+            "journetTime": "1 hour and 15 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 8,
+            "name": "IndiGo",
+            "startTime": "23:10",
+            "endTime": "05:15",
+            "from": "COORG",
+            "to": "MUMBAI",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 9,
+            "name": "SpiceJet",
+            "startTime": "9:20",
+            "endTime": "15:45",
+            "from": "KERALA",
+            "to": "HYDERABAD",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 10,
+            "name": "EMIRATES",
+            "startTime": "9:20",
+            "endTime": "15:45",
+            "from": "CHENNAI",
+            "to": "KERALA",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 11,
+            "name": "Vistara",
+            "startTime": "9:20",
+            "endTime": "15:45",
+            "from": "HYDERABAD",
+            "to": "COORG",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 12,
+            "name": "TruJet",
+            "startTime": "4:40",
+            "endTime": "05:45",
+            "from": "CHENNAI",
+            "to": "COORG",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 13,
+            "name": "IndiGo",
+            "startTime": "23:10",
+            "endTime": "05:15",
+            "from": "KASOL",
+            "to": "BANGLURU",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 14,
+            "name": "SpiceJet",
+            "startTime": "9:20",
+            "endTime": "15:45",
+            "from": "CHENNAI",
+            "to": "KASOL",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 15,
+            "name": "TruJet",
+            "startTime": "9:20",
+            "endTime": "15:45",
+            "from": "BANGLURU",
+            "to": "PUNE",
+            "journetTime": "6 hours and 25 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 16,
+            "name": "IndiGo",
+            "startTime": "4:40",
+            "endTime": "05:45",
+            "from": "PUNE",
+            "to": "BANGLURU",
+            "journetTime": "1 hour and 15 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 17,
+            "name": "Vistara",
+            "startTime": "15:45",
+            "endTime": "18:15",
+            "from": "MUMBAI",
+            "to": "BANGLURU",
+            "journetTime": "3 hours and 30 minutes",
+            "price": 17500,
+            "discount": 2500
+        },
+        {
+            "id": 18,
+            "name": "TruJet",
+            "startTime": "5:00",
+            "endTime": "11:45",
+            "from": "CHENNAI",
+            "to": "MUMBAI",
+            "journetTime": "6 hours and 45 minutes",
+            "price": 15486,
+            "discount": 565
+        }
+    ]
+}

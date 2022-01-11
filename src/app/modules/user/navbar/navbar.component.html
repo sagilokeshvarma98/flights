@@ -1,0 +1,21 @@
+<mat-toolbar>
+    <img width="40px" src="assets/trippy.jpg" alt="trippy company logo">
+    <span class="companyLogoName">TRIPPY</span>
+    <span class="spacer"></span>
+    <div class="iconDiv">
+        <button mat-icon-button>
+            <mat-icon>info</mat-icon>
+        </button>
+        <button mat-icon-button>
+            <mat-icon>contact_support</mat-icon>
+        </button>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon>lock_outline</mat-icon>
+            <!-- <mat-icon>lock_open</mat-icon> -->
+        </button>
+        <mat-menu #menu>
+            <button mat-menu-item>login/signup</button>
+            <button mat-menu-item>profile</button>
+        </mat-menu>
+    </div>
+</mat-toolbar>

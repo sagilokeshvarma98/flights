@@ -1,0 +1,29 @@
+section {
+    width: 100%;
+    background: linear-gradient(80deg, #ebf8e1, #3f87a6);
+    padding: 5% 0% 0% 0%;
+    display: grid;
+    grid-template-columns: 5;
+    .formDiv {
+        margin: 30px;
+        // padding: 2%;
+        height: fit-content;
+        form {
+            // display: grid;
+            // grid-template-columns: auto auto auto auto auto;
+            mat-form-field {
+                width: 250px;
+            }
+        }
+    }
+    .searchButton:disabled {
+        color: rgba(255, 255, 255, 0.507);
+    }
+}
+
+.autocompleteData {
+    color: brown;
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
